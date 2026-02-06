@@ -10,4 +10,4 @@ RUN ./gradlew clean build --no-daemon
 
 EXPOSE 10000
 
-CMD ["java", "-jar", "build/libs/demo-0.1.jar"]
+CMD ["java", "-jar", "build/libs/demo-0.0.1-SNAPSHOT.jar"]
